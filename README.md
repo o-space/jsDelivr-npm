@@ -1,7 +1,9 @@
 # Instructions
 
 - git init
-  - touch .gitignore README.md index.js
+  - mkdir tests
+  - touch .gitignore README.md index.js index.test.js
+  - yarn add jest -D
 - yarn init
 
 ## Local publish
@@ -13,9 +15,9 @@
     - Input password when `yarn publish`
       ```yarnrc
       ...
-      email "1174980997@qq.com"
+      email <EMAIL>
       lastUpdateCheck ...
-      username josaber
+      username <USERNAME>
       ```
   - `npm adduser`
     - Generate token in `~/.npmrc`
