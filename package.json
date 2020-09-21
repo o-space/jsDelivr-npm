@@ -1,9 +1,18 @@
 {
   "name": "jsdelivr-npm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Test jsDelivr",
   "main": "index.js",
   "author": "Josaber<1174980997@qq.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "preversion": "yarn test",
+    "postversion": "yarn publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
 }
