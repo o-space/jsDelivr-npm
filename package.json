@@ -1,0 +1,9 @@
+{
+  "name": "jsdelivr-npm",
+  "version": "0.0.2",
+  "description": "Test jsDelivr",
+  "main": "index.js",
+  "author": "Josaber<1174980997@qq.com>",
+  "license": "MIT",
+  "private": true
+}
