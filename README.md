@@ -6,7 +6,7 @@
 
 ## Local publish
 
-- yarn version
+- yarn version [--patch/minor/major/prepatch/preminor/premajor/prerelease]
   - Auto commit in git
 - Add preversion, postversion, postpublish hooks in [package.json](package.json)
   - `~/.yarnrc`
