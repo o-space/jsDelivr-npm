@@ -1,6 +1,6 @@
 {
   "name": "jsdelivr-npm",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test jsDelivr",
   "main": "index.js",
   "author": "Josaber<1174980997@qq.com>",
